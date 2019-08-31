@@ -1,0 +1,27 @@
+header{
+    padding: 1vh 0.5vw 0.5vh 0.5vw;
+    background-color: rgba(255, 255, 255,1);
+    height:3vh;
+}
+#logo{
+    float: left;
+    height:2vh;
+}
+nav a{
+    float:right;
+    text-decoration:none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+nav{
+    margin-right:1vw;
+}
+#cover{
+    height:100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(255, 255, 255,0.2),   rgba(255, 255, 255,1)),url("Media/cover.jpg") no-repeat;
+    background-size: fill;
+}
